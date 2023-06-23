@@ -1,0 +1,23 @@
+{
+  "name": "gen-ai-reviewer",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chatgpt": "^5.2.5",
+    "dotenv": "^16.1.4",
+    "octokit": "^2.0.19",
+    "probot": "^12.3.1"
+  },
+  "devDependencies": {
+    "smee-client": "^1.2.3"
+  }
+}
